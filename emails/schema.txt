@@ -1,0 +1,2 @@
+CREATE TABLE report ( domain varchar(255) PRIMARY KEY, totalCount real, countPrev30 real, growth real);
+CREATE TABLE data ( username varchar(255), domain varchar(255), dateVal varchar(11), PRIMARY KEY (username, domain));
