@@ -1,3 +1,5 @@
+# Testing properties of inheritance with classes
+
 class A:
 	def f(self):
 		return self.g()
